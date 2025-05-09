@@ -4,3 +4,8 @@
 - Installed core dependencies for both frontend and backend
 - Set up initial Git repository
 
+### Added
+- Defined all initial app routes
+
+### Added 
+- 
