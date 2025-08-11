@@ -1,4 +1,4 @@
-export const BASE_URL = "https://chat-app-prod-ddcq.onrender.com";
+export const BASE_URL = "https://taskmanager-1-hl4d.onrender.com";
 
 //utils/apiPaths.js
 export const API_PATHS = {
