@@ -279,7 +279,7 @@ const getDashboardData = async (req, res) => {
         const taskDistributionRaw = await Task.aggregate([
             {
                 $group: {
-                    _id: "status",
+                    _id: "$status",
                     count: { $sum: 1 },
                 },
             },
@@ -298,7 +298,7 @@ const getDashboardData = async (req, res) => {
         const taskPriorityLevelsRaw = await Task.aggregate([
             {
                 $group: {
-                    _id: "priority",
+                    _id: "$priority",
                     count: { $sum: 1 },
                 },
             },
